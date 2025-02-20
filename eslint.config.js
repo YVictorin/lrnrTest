@@ -18,6 +18,7 @@ export default [
       },
     },
     settings: { react: { version: "18.3" } },
+    
     plugins: {
       react,
       "react-hooks": reactHooks,
@@ -35,4 +36,11 @@ export default [
       ],
     },
   },
+  {
+    "env": {
+      "cypress/globals": true
+    },
+    "plugins": ["cypress"]
+  }
+  
 ];

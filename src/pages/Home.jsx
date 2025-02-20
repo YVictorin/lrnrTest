@@ -37,6 +37,7 @@ export default function Home() {
               color: "#616161",
               fontSize: "clamp(1em, 3vw, 1.7em)",
             }}
+            data-testid="home-title"
           >
             Your guided path to programming enlightnment
           </h5>
@@ -46,6 +47,7 @@ export default function Home() {
             <a
               class="waves-effect waves-light btn btn-large"
               style={{ marginBottom: "18%" }}
+              data-testid="home-btn"
             >
               BEGIN JOURNEY
             </a>
