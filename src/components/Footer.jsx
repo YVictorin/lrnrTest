@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer
       className="page-footer light-blue darken-2"
-      style={{ marginTop: "8rem" }}
+      style={{ marginTop: "8rem"}}
     >
       <div className="container">
         <div className="row">

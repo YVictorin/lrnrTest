@@ -48,6 +48,7 @@ export default function Home() {
               class="waves-effect waves-light btn btn-large"
               style={{ marginBottom: "18%" }}
               data-testid="home-btn"
+              href="/quizGen"
             >
               BEGIN JOURNEY
             </a>
